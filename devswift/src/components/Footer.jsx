@@ -96,32 +96,24 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-purple-400">Contact Us</h3>
             <ul className="space-y-4">
-              <li className="flex items-center space-x-2">
-                <FaEnvelope className="text-gray-400" />
-                <a href="mailto:chinmayakumardas2000@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <li className="flex items-center space-x-2 group">
+                <FaEnvelope className="text-blue-400 group-hover:text-blue-300 transition-colors duration-300" />
+                <a href="mailto:chinmayakumardas2000@gmail.com" className="text-gray-400 group-hover:text-white transition-colors duration-300">
                   chinmayakumardas2000@gmail.com
                 </a>
               </li>
-              <li className="flex items-center space-x-2">
-                <FaPhone className="text-gray-400" />
-                <a href="tel:+916370073215" className="text-gray-400 hover:text-white transition-colors duration-300">
+              <li className="flex items-center space-x-2 group">
+                <FaPhone className="text-green-400 group-hover:text-green-300 transition-colors duration-300" />
+                <a href="tel:+916370073215" className="text-gray-400 group-hover:text-white transition-colors duration-300">
                   +91 6370073215
                 </a>
               </li>
-              <li className="flex items-start space-x-2">
-                <FaMapMarkerAlt className="text-gray-400 mt-1" />
-                <span className="text-gray-400">
+              <li className="flex items-start space-x-2 group">
+                <FaMapMarkerAlt className="text-red-400 group-hover:text-red-300 transition-colors duration-300 mt-1" />
+                <span className="text-gray-400 group-hover:text-white transition-colors duration-300">
                   Patia, Bhubaneswar,<br />
                   Odisha, PIN: 751024
                 </span>
-              </li>
-              <li>
-                <Link 
-                  to="/contact"
-                  className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold hover:scale-105 transform transition-all duration-300 animate-gradient"
-                >
-                  Get in Touch
-                </Link>
               </li>
             </ul>
           </div>
