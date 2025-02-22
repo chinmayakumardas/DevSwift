@@ -1,4 +1,7 @@
 [build]
+  base = "devswift"
+  publish = "build" # or whatever your build output directory is
+  command = "npm run build" # or your build command[build]
   command = "npm run build"
   publish = "dist"
 
